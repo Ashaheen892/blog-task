@@ -1261,20 +1261,20 @@ footer {
             font-size: 12px;
             line-height: 14px;
             margin: 0; } }
-      .the_strategy .container .most_data .most_data_caption h3 {
+      .the_strategy .container .most_data .most_data_caption h1 {
         font-size: 40px;
         line-height: 59px;
         color: #FFFFFF;
         margin-bottom: 12px; }
         @media (max-width: 1200px) {
-          .the_strategy .container .most_data .most_data_caption h3 {
+          .the_strategy .container .most_data .most_data_caption h1 {
             font-size: 30px;
             line-height: 30px; } }
         @media (max-width: 991px) {
-          .the_strategy .container .most_data .most_data_caption h3 {
+          .the_strategy .container .most_data .most_data_caption h1 {
             font-size: 24px; } }
         @media (max-width: 500px) {
-          .the_strategy .container .most_data .most_data_caption h3 {
+          .the_strategy .container .most_data .most_data_caption h1 {
             font-size: 18px;
             margin: 0; } }
       .the_strategy .container .most_data .most_data_caption p {
@@ -1489,18 +1489,18 @@ footer {
     @media (max-width: 991px) {
       .header_article .article_title {
         width: 100%; } }
-    .header_article .article_title h2 {
+    .header_article .article_title h1 {
       font-size: 50px;
       line-height: 74px;
       margin: 0;
       font-family: "DINNextLTArabicbold";
       color: #FFFFFF; }
       @media (max-width: 991px) {
-        .header_article .article_title h2 {
+        .header_article .article_title h1 {
           font-size: 40px;
           line-height: 60px; } }
       @media (max-width: 500px) {
-        .header_article .article_title h2 {
+        .header_article .article_title h1 {
           font-size: 30px;
           line-height: 40px; } }
   .header_article .articleـby {
