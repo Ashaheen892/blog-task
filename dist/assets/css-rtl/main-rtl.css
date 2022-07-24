@@ -552,8 +552,7 @@ footer {
       margin-top: 67px; } }
   @media (max-width: 500px) {
     .hero_slider {
-      height: 45vh;
-      margin-top: 115px; } }
+      height: 45vh; } }
   .hero_slider .carousel {
     height: 100%; }
     .hero_slider .carousel .carousel-indicators,
