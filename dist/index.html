@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>مدونة | blog</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" data-sizes="100w" href="assets/imges/fav.png" data-sizes="100w" />
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+
+  <!--  slick-carousel@1.8.1 css -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <!-- my style -->
+  <link rel="stylesheet" href="./assets/css-rtl/main-rtl.min.css" />
+  <style></style>
+</head>
+
+<body dir="rtl">
+  <section class="header_main">
+    <!-- start nav_bar_big -->
+    <div class="nav_bar_big animate__animated">
+      <div class="nav_bar_brand">
+        <a href="index.html" class="nav_brand"> مدونة | blog</a>
+      </div>
+      <div class="navbar_links">
+        <div class="nav_bar_link">
+          <ul class="nav_bar_nav">
+            <li class="nav_itme">
+              <a href="index.html" class="nav_link active">الرئيسية</a>
+            </li>
+            <li class="nav_itme">
+              <a href="reports.html" class="nav_link">التقارير والدراسات</a>
+            </li>
+            <li class="nav_itme">
+              <a href="details-blog.html" class="nav_link">المقالات</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_Search_Mod">
+          <ul>
+            <li>
+              <div class="search-box">
+                <button class="btn-search">
+                  <span class="icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </button>
+                <input type="text" class="input-search" placeholder="اكتب للبحث..." />
+              </div>
+            </li>
+            <li>
+              <span class="icon icon_moon">
+                <i class="far fa-moon"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- start nav_btn_toggle -->
+      <div class="nav_btn_toggle">
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <!-- end nav_btn_toggle -->
+    </div>
+    <!-- end nav_bar_big -->
+  </section>
+
+  <!-- start hero_slider -->
+  <section class="hero_slider">
+    <div id="hero_slider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#hero_slider" data-slide-to="0" class="active"></li>
+        <li data-target="#hero_slider" data-slide-to="1"></li>
+        <li data-target="#hero_slider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/imges/b1.png" class="d-block w-100" alt="image" />
+          <div class="carousel-caption">
+            <h5>مركز المدونة</h5>
+            <p>
+              مركــز للتعليـــم ونشــر المعرفة عبر المقالات والدونات المتخصصة
+              بموضوعات التجارة الالكترونى والاقتصاد والتقنية , ومايخص حياتنا
+              كتجار , كل ماتريده عن التجارة الالكترونية والاقتصاد
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/imges/b1.png" class="d-block w-100" alt="image" />
+          <div class="carousel-caption">
+            <h5>مركز المدونة</h5>
+            <p>
+              مركــز للتعليـــم ونشــر المعرفة عبر المقالات والدونات المتخصصة
+              بموضوعات التجارة الالكترونى والاقتصاد والتقنية , ومايخص حياتنا
+              كتجار , كل ماتريده عن التجارة الالكترونية والاقتصاد
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/imges/b1.png" class="d-block w-100" alt="image" />
+          <div class="carousel-caption">
+            <h5>مركز المدونة</h5>
+            <p>
+              مركــز للتعليـــم ونشــر المعرفة عبر المقالات والدونات المتخصصة
+              بموضوعات التجارة الالكترونى والاقتصاد والتقنية , ومايخص حياتنا
+              كتجار , كل ماتريده عن التجارة الالكترونية والاقتصاد
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#hero_slider" data-slide="prev">
+        <span>
+          <i class="fas fa-regular fa-angle-left"></i>
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#hero_slider" data-slide="next">
+        <span>
+          <i class="fas fa-regular fa-angle-right"></i>
+        </span>
+      </button>
+    </div>
+  </section>
+
+  <!-- end hero_slider -->
+  <!-- start most_read -->
+  <section class="most_read">
+    <div class="container">
+      <div class="most_read_title">
+        <h2 class="title">الاكثر قراءة</h2>
+        <h4 class="show_more">
+          <a href="#">عرض المزيد
+            <i class="fas fa-regular fa-angle-left icon"></i>
+          </a>
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="most_data">
+            <div class="most_data_img">
+              <img src="assets/imges/most-1.jpeg" alt="imge" />
+            </div>
+            <div class="most_data_caption">
+              <h3>التسويق</h3>
+              <p>
+                من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                تريليون فى عام 2021
+              </p>
+              <h6>بواسطة عبد الله عادل</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="most_data">
+            <div class="most_data_img">
+              <img src="assets/imges/most-2.jpeg" alt="imge" />
+            </div>
+            <div class="most_data_caption">
+              <h3>التسويق</h3>
+              <p>
+                من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                تريليون فى عام 2021
+              </p>
+              <h6>بواسطة عبد الله عادل</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="most_data">
+            <div class="most_data_img">
+              <img src="assets/imges/most-3.jpeg" alt="imge" />
+            </div>
+            <div class="most_data_caption">
+              <h3>التسويق</h3>
+              <p>
+                من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                تريليون فى عام 2021
+              </p>
+              <h6>بواسطة عبد الله عادل</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end most_read -->
+  <!-- start slider_news -->
+  <section class="slider_news">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="slider slider-for">
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-12">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-1.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-12">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-2.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-12">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-3.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-12">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-2.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="slider-nav">
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-5">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-1.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>التسويق</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-5">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-2.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-5">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-3.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="row">
+                <div class="col-5">
+                  <div class="most_data_img">
+                    <img src="assets/imges/most-2.jpeg" alt="imge" />
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="most_data_caption">
+                    <h5>افكار البيزنس</h5>
+                    <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                    <p>
+                      من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                      4.5 تريليون فى عام 2021
+                    </p>
+                    <h6>بواسطة عبد الله عادل</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end slider_news -->
+  <!-- start the_strategy -->
+  <section class="the_strategy">
+    <div class="container">
+      <div class="most_data">
+        <div class="most_data_img">
+          <img src="assets/imges/b1.png" alt="imge" />
+        </div>
+        <div class="most_data_caption">
+          <h5>استراتيجية</h5>
+          <h3>ما هو مستقبل التجارة الالكترونية</h3>
+          <p>
+            من المتوقــع ان تزيد المبيعات من 1.3 تريليون فى عام 2014 إلى 4
+            تريليون فى عام 2021 وتعتبر هذه مبلغ ضخم فى التجارة
+          </p>
+          <h6>بواسطة عبد الله عادل</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end the_strategy -->
+  <!-- start most_watched -->
+  <section class="most_watched">
+    <div class="container">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="most_watched-tab" data-toggle="pill" data-target="#most_watched"
+            type="button" role="tab" aria-controls="most_watched" aria-selected="true">
+            الاكثر مشاهدة
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="most_popular-tab" data-toggle="pill" data-target="#most_popular" type="button"
+            role="tab" aria-controls="most_popular" aria-selected="false">
+            الاكثر شهرة
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="most_read-tab" data-toggle="pill" data-target="#most_read" type="button"
+            role="tab" aria-controls="most_read" aria-selected="false">
+            الاكثر قراءة
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="most_watched" role="tabpanel" aria-labelledby="most_watched-tab">
+          <div class="most_watched_slider">
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-1.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-2.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-4.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="most_popular" role="tabpanel" aria-labelledby="most_popular-tab">
+          <div class="most_popular_slider">
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-1.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-2.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-4.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="most_read" role="tabpanel" aria-labelledby="most_read-tab">
+          <div class="most_read_slider">
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-1.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-2.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-4.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="most_data">
+                <div class="most_data_img">
+                  <img src="assets/imges/watched-3.png" alt="imge" />
+                </div>
+                <div class="most_data_caption">
+                  <h5>افكار البيزنس</h5>
+                  <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                  <p>
+                    من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى
+                    4.5 تريليون فى عام 2021
+                  </p>
+                  <h6>بواسطة عبد الله عادل</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end most_watched -->
+  <!-- start slider_news -->
+  <section class="slider_news slider_news_2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="slider-nav">
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-1.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس</h5>
+                <h3>التسويق</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-2.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس2</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-3.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس3</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-2.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس4</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="slider slider-for">
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-1.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-2.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس2</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-3.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس3</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+            <div class="slider_news_data">
+              <div class="most_data_img">
+                <img src="assets/imges/most-2.jpeg" alt="imge" />
+              </div>
+              <div class="most_data_caption">
+                <h5>افكار البيزنس4</h5>
+                <h3>ما هو مستقبل التجارة الالكترونية</h3>
+                <p>
+                  من المتوقع أن تزيد المبيعات من 1.3 تريليون عام 2014 الى 4.5
+                  تريليون فى عام 2021
+                </p>
+                <h6>بواسطة عبد الله عادل</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end slider_news -->
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <h2>اشترك في النشرة البريدية</h2>
+      <p>كن أول من يعلم عن كل جديد في عالم التجارة الإلكترونية</p>
+      <div class="footer_email">
+        <form>
+          <div class="input-control">
+            <input id="email" type="email" placeholder="البريد الإلكتروني"
+              pattern="^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$" required />
+            <i class="email-icon far fa-envelope"></i>
+          </div>
+
+          <div class="input-control">
+            <input id="submit" type="submit" value="" />
+            <span>اشتراك <i class="input-icon fas fa-paper-plane"></i></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- start footer-small -->
+  <section class="footer-small">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <section class="copyright_social">
+            <div id="copyright">
+              <span> جميع الحقوق محفوظة لشركة مدونة </span>
+              <script>
+                document
+                  .getElementById("copyright")
+                  .appendChild(
+                    document.createTextNode(new Date().getFullYear())
+                  );
+              </script>
+            </div>
+            <div class="social_media">
+              <ul>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="far fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="col-md-6">
+          <div class="writer_terms">
+            <ul>
+              <li>
+                <a href="#" target="_blank" class="btn_terms">كن كاتب معنا</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="btn_writer">الشروط والاحكام</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end footer-small -->
+  <!-- start landscape_div -->
+  <section class="landscape_div">
+    <img src="./assets/imges/landscape.png" alt="" />
+  </section>
+  <!-- end landscape_div -->
+  <div class="loader-container">
+    <div class="spinner"></div>
+  </div>
+  <!-- jquery -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <!-- popper js -->
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <!-- font awesome js -->
+  <script src="./assets/js/font-awesome.min.js"></script>
+  <!-- slick-carousel@1.8.1 js -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- my script -->
+  <script src="./assets/js/slider.min.js"></script>
+  <script src="./assets/js/app.min.js"></script>
+</body>
+
+</html>

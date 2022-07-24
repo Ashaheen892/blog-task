@@ -1,0 +1,62 @@
+/*=============================================
+=            Section dark_mod            =
+=============================================*/
+.dark_mod {
+  .nav_bar_big {
+    background-color: $color-white;
+  }
+  .nav_bar_brand {
+    .nav_brand {
+      color: $color-black-b;
+    }
+  }
+  .navbar_links {
+    background-color: $color-white;
+    .nav_bar_link {
+      .nav_bar_nav {
+        .nav_itme {
+          .nav_link {
+            color: $color-black-b;
+          }
+        }
+      }
+    }
+    .nav_Search_Mod {
+      ul {
+        li {
+          .icon {
+            border: solid 1px $color-white-op;
+            color: $color-black-p;
+            background-color: $color-white;
+          }
+          .input-search {
+            color: $color-black-b;
+            border-bottom: 1px transparent;
+            &:focus {
+              border-bottom: 1px solid rgba($color-black-b, 0.5);
+            }
+          }
+          .input-search::placeholder {
+            color: rgba($color-black-b, 0.5);
+          }
+          .btn-search {
+            color: $color-black-b;
+          }
+          .btn-search:focus ~ .input-search {
+            border-bottom: 1px solid rgba($color-black-b, 0.5);
+          }
+        }
+      }
+    }
+  }
+  .nav_btn_toggle {
+    a {
+      span {
+        background-color: $color-black-b;
+   
+      }
+    }
+  }
+}
+
+/*=====  End of Section dark_mod  ======*/
